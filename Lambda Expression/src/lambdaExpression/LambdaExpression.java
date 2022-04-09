@@ -1,5 +1,6 @@
 package lambdaExpression;
 
+import java.util.ArrayList;
 
 interface Square{
 	
@@ -9,7 +10,19 @@ public class LambdaExpression {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		
+		int y = 128;
+		byte x = (byte) y;
+		System.out.println(x);
+		
+		Employee e = new Employee();
+		e.setEmpID(101);
+		e.setName("Muhassan");
+		e.getIsPresent();
+		
+		System.out.println("The employee "+e.getEmpName() + " with the empID "+e.getEmpID()+""
+				+ " is absent "+e.getIsPresent());
 		//Regular Expression
 		Square s = new Square() {
 			
