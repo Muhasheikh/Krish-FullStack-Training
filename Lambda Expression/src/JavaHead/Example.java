@@ -1,5 +1,7 @@
 package JavaHead;
 
+
+
 class Example {
 		
 	public String name = "Muha";//initialize an instance variable
@@ -13,6 +15,9 @@ class Example {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+	
+
 		Example ex = new Example();//object creation
 		
 		System.out.println(ex.distance(5, 5));
